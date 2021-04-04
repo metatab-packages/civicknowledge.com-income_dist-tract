@@ -10,3 +10,4 @@ _packages
 .DS_Store
 notebooks/*.csv
 notebooks/*.pkl
+data/cache
