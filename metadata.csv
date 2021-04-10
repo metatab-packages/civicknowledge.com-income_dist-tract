@@ -2,19 +2,19 @@ Declare,metatab-latest
 Title,Tract Income Distributions
 Description,Estimated portions of households per tracts in income ranges
 Identifier,b9ee7ab5-7f03-4eb1-82d2-1d7ce050eada
-Name,civicknowledge.com-income_dist-tract-1.2.2
+Name,civicknowledge.com-income_dist-tract-1.2.3
 Dataset,income_dist
 Origin,civicknowledge.com
 Time,
 Space,
 Grain,tract
 Variant,
-Version,1.2.2
+Version,1.2.3
 Version.Major,1
 Version.Minor,2
-Version.Patch,2
+Version.Patch,3
 Created,2021-02-19T04:02:36
-Modified,2021-04-02T16:31:01
+Modified,2021-04-09T23:37:54
 Giturl,https://github.com/metatab-packages/civicknowledge.com-income_dist-tract.git
 ""
 Section,Contacts,Email,Organization,Url
@@ -26,7 +26,7 @@ Documentation,file:README.md,README,,
 Section,References,Name,Description,
 Reference,pums:{st}/h/2019/5,pums,PUMS template,
 Reference,data/puma_tract_map.csv,puma_tract_map,Puma to tract map,
-Reference,metapack+http://library.metatab.org/civicknowledge.com-geohash-us.csv#us_tracts,us_tracts,"US Tracts, with tract numbers",
+Reference,index:civicknowledge.com-geohash-us#us_tracts,us_tracts,"US Tracts, with tract numbers",
 Reference,census://2019/5/US/tract/B11001,households,US Households by tract,
 Reference,census://2019/5/US/tract/B19013,median_income,US Household median income by tract,
 Reference,census://2019/5/US/tract/B19082,agg_by_quintile,Shares of Aggregate Household Income by Quintile,
